@@ -54,9 +54,9 @@ be ignored.
 ###Use
 
 
-* Copy or rename the module directory to YOURQTYPENAME.
-* Replace all occurances of YOURQTYPENAME in files with the new name for your question type.
-* Rename files that have YOURQTYPENAME replacing YOURQTYPENAME with the new name for your question type.
-* Replace '@copyright  THEYEAR YOURNAME (YOURCONTACTINFO)' with something like @copyright  2013 Jamie Pratt (me@jamiep.org)
+* Copy or rename the module directory to freetext.
+* Replace all occurances of freetext in files with the new name for your question type.
+* Rename files that have freetext replacing freetext with the new name for your question type.
+* Replace '@copyright  2017 Damion Young (msdlt@medsci.ox.ac.uk)' with something like @copyright  2013 Jamie Pratt (me@jamiep.org)
 * See http://docs.moodle.org/dev/Question_types for more info on how to create a question type plug in. Please add to it where
  you can.

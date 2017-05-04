@@ -15,18 +15,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * YOURQTYPENAME question type version information.
+ * freetext question type version information.
  *
  * @package    qtype
- * @subpackage YOURQTYPENAME
- * @copyright  THEYEAR YOURNAME (YOURCONTACTINFO)
+ * @subpackage freetext
+ * @copyright  2017 Damion Young (msdlt@medsci.ox.ac.uk)
 
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'qtype_YOURQTYPENAME';
+$plugin->component = 'qtype_freetext';
 $plugin->version   = 2013012900;
 
 $plugin->requires  = 2012062504;
