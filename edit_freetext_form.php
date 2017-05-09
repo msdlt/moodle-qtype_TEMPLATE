@@ -37,7 +37,18 @@ defined('MOODLE_INTERNAL') || die();
  */
 class qtype_freetext_edit_form extends question_edit_form {
 
+    /**
+     * Add question-type specific form fields.
+     *
+     * @param MoodleQuickForm $mform the form being built.
+     */
     protected function definition_inner($mform) {
+        //the api id of the question that this will mark
+        //TODO - long-term, display list of possible questions
+        $mform->addElement('text', 'api_id',
+                get_string('api_id', 'qtype_freetext'),
+                array('size' => 20));
+        $mform->setType('api_id', PARAM_INT); 
         $this->add_interactive_settings();
     }
 
